@@ -12,8 +12,8 @@ def input_to_index(n)
 end
 
 def move(board, index, value = "X")
-  if(valid_move?(board, input_to_index(index)))
-    board[input_to_index(index)] = value
+  if(valid_move?(board, index))
+    board[index] = value
   end
 end
 
