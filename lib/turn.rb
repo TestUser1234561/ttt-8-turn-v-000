@@ -13,11 +13,13 @@ end
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
+  if()
 end
 
 def move(board, index, value = "X")
   if(valid_move?(board, index))
     board[index] = value
+    return true
   end
 end
 
