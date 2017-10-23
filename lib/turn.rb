@@ -19,7 +19,7 @@ def turn(board)
 end
 
 def move(board, index, value = "X")
-  if(index.to_i && valid_move?(board, index))
+  if(valid_move?(board, index))
     board[index] = value
     return true
   end
