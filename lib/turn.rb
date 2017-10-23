@@ -11,7 +11,7 @@ def input_to_index(n)
   return n.to_i - 1
 end
 
-def move(array, index, value = "X")
+def move(board, index, value = "X")
   if(valid_move?())
 end
 
