@@ -16,7 +16,7 @@ def turn(board)
   if(!move(board, input_to_index(input)))
     turn(board)
   end
-  display_board(turn)
+  display_board(board)
 end
 
 def move(board, index, value = "X")
