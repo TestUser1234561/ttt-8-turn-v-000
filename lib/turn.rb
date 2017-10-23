@@ -12,7 +12,9 @@ def input_to_index(n)
 end
 
 def move(board, index, value = "X")
-  if(valid_move?(board, index))
+  if(valid_move?(board, input_to_index(index)))
+    
+  end
 end
 
 def position_taken?(board, index)
