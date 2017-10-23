@@ -13,7 +13,7 @@ end
 
 def move(board, index, value = "X")
   if(valid_move?(board, input_to_index(index)))
-
+    board[input_to_index(index)]
   end
 end
 
